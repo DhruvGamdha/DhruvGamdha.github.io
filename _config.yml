@@ -4,7 +4,7 @@ url: "https://DhruvGamdha.github.io" # Replace with your GitHub Pages URL
 baseurl: "" # For user.github.io repositories, leave empty
 
 # Use Minimal Mistakes as a remote theme
-remote_theme: "mmistakes/minimal-mistakes@4.33.0" # Specify the exact version
+remote_theme: "mmistakes/minimal-mistakes@4.34.0"
 
 plugins:
   - jekyll-feed
