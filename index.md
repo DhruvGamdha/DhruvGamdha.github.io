@@ -1,14 +1,23 @@
 ---
-layout: default
-title: "Home"
+layout: splash
+title: "HPC Software Developer"
+subtitle: "Accelerating Simulations, Scaling GPU Algorithms, and Enabling Next-Gen Computational Engineering"
+permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/header-bg.jpg
+  actions:
+    - label: "View Projects"
+      url: "/projects/"
+    - label: "Download Resume"
+      url: "/resume/"
 ---
 
-## Hi, I'm Dhruv Gamdha
+Welcome! I am **Dhruv Gamdha**, a Ph.D. candidate and HPC software developer specializing in GPU acceleration, PDE solvers, and large-scale simulations. I integrate cutting-edge numerical methods with parallel computing frameworks to solve complex engineering and scientific problems efficiently.
 
-I am a Ph.D. candidate and HPC software developer focused on GPU acceleration, PDE solvers, and large-scale simulations. I enjoy building high-performance algorithms to tackle complex geometry and physics problems.
+- **Expertise:** CUDA, MPI, FEM, PDE Solvers, HPC tools
+- **Recent Work:** Reduced complexity from O(N³) to O(N) in B-Rep surface healing for NVIDIA Omniverse
+- **Applications:** Large-scale 3D printing simulations, High-throughput HRTEM analysis, Automated defect detection in manufacturing
 
-- Specializing in CUDA, MPI, and FEM-based PDE solvers.
-- Experience at NVIDIA, LBNL, and IIT Madras.
-- Interested in HPC, Simulation, and Advanced Computational Engineering roles.
-
-[Check out my Projects](/projects)
+Explore my [Projects](/projects/) and [Publications](/publications/) to learn more, or [get in touch](/contact/) about potential collaborations or opportunities.

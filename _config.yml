@@ -1,22 +1,49 @@
 title: "Dhruv Gamdha"
-description: "HPC Software Developer - GPU Acceleration - PDE Solvers"
-baseurl: "" # for user.github.io repo, leave empty
-url: "https://DhruvGamdha.github.io"
-theme: minima # Minima is a default Jekyll theme. You can pick another theme if you like.
+description: "HPC Software Developer Specializing in GPU Acceleration and PDE Solvers"
+url: "https://DhruvGamdha.github.io" # Replace with your username
+baseurl: ""
+theme: "minimal-mistakes-jekyll"
 
-# GitHub Pages settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# If you want navigation links
-nav:
-  - name: "About"
-    link: "/about"
-  - name: "Projects"
-    link: "/projects"
-  - name: "Publications"
-    link: "/publications"
-  - name: "Resume"
-    link: "/resume"
-  - name: "Contact"
-    link: "/contact"
+# Minimal Mistakes specific configurations
+author:
+  name: "Dhruv Gamdha"
+  avatar: "/assets/images/avatar.jpg" # Add an avatar image in /assets/images
+  bio: "Ph.D. Candidate in HPC and Simulation"
+  links:
+    - label: "Email"
+      url: "mailto:dgamdha@iastate.edu"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/dhruv-dhiraj-gamdha/"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=P2KcbCAAAAAJ&hl=en"
+
+# Navigation
+navigation:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "Resume"
+    url: /resume/
+  - title: "Contact"
+    url: /contact/
+
+# Enable/disable various features
+enable:
+  - favicon: true
+  - social: true
+  - share: true
+  - sitemap: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single

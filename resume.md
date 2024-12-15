@@ -1,10 +1,9 @@
 ---
-layout: default
 title: "Resume"
 ---
 
 # Resume
 
-[Download PDF](https://drive.google.com/file/d/1pgNDTlEKnmSx25LwBk7mQWsHQdnzQH4H/view?usp=drive_link)
+[**Download PDF Here**](https://drive.google.com/file/d/1pgNDTlEKnmSx25LwBk7mQWsHQdnzQH4H/view?usp=drive_link)
 
-*(Optionally, embed the PDF using `<iframe>` or provide a summary of your resume.)*
+For a detailed overview of my professional experience, education, skills, and projects, please download my updated resume.
