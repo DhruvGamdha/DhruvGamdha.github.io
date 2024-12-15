@@ -13,7 +13,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0 # Change to the version you use
+          ruby-version: 3.3.6 # Change to the version you use
       - name: Install dependencies
         run: bundle install
       - name: Build site
