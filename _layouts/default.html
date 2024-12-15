@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+    <nav>
+      <ul>
+        {% for item in site.nav %}
+        <li><a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p><a href="mailto:dgamdha@iastate.edu">Email</a> | <a href="https://www.linkedin.com/in/dhruv-dhiraj-gamdha/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=P2KcbCAAAAAJ&hl=en">Google Scholar</a></p>
+  </footer>
+</body>
+</html>

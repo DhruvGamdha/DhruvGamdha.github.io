@@ -1,0 +1,22 @@
+title: "Dhruv Gamdha"
+description: "HPC Software Developer - GPU Acceleration - PDE Solvers"
+baseurl: "" # for user.github.io repo, leave empty
+url: "https://DhruvGamdha.github.io"
+theme: minima # Minima is a default Jekyll theme. You can pick another theme if you like.
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+
+# If you want navigation links
+nav:
+  - name: "About"
+    link: "/about"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Publications"
+    link: "/publications"
+  - name: "Resume"
+    link: "/resume"
+  - name: "Contact"
+    link: "/contact"
