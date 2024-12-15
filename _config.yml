@@ -1,8 +1,9 @@
 title: "Dhruv Gamdha"
 description: "HPC Software Developer Specializing in GPU Acceleration and PDE Solvers"
-url: "https://DhruvGamdha.github.io" # Replace with your username
-baseurl: ""
-theme: minimal-mistakes-jekyll
+url: "https://DhruvGamdha.github.io" # Replace with your GitHub Pages URL
+baseurl: "" # For user.github.io repositories, leave empty
+theme: "minimal-mistakes-jekyll"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -11,7 +12,7 @@ plugins:
 # Minimal Mistakes specific configurations
 author:
   name: "Dhruv Gamdha"
-  avatar: "/assets/images/avatar.jpg" # Add an avatar image in /assets/images
+  avatar: "/assets/images/avatar.jpg" # Ensure this image exists
   bio: "Ph.D. Candidate in HPC and Simulation"
   links:
     - label: "Email"
@@ -21,7 +22,7 @@ author:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=P2KcbCAAAAAJ&hl=en"
 
-# Navigation
+# Navigation links in the header
 navigation:
   - title: "About"
     url: /about/
@@ -34,15 +35,21 @@ navigation:
   - title: "Contact"
     url: /contact/
 
-# Enable/disable various features
-enable:
-  - favicon: true
-  - social: true
-  - share: true
-  - sitemap: true
+# Enable extra features
+extras:
+  - favicon
+  - apple-touch-icon
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: single
+# Social links can also be defined here
+social:
+  - icon: linkedin
+    link: https://www.linkedin.com/in/dhruv-dhiraj-gamdha/
+  - icon: email
+    link: mailto:dgamdha@iastate.edu
+  - icon: scholar
+    link: https://scholar.google.com/citations?user=P2KcbCAAAAAJ&hl=en
+
+# Optional: Customize the footer
+footer:
+  copyright:
+    text: "© 2024 Dhruv Gamdha. All rights reserved."
