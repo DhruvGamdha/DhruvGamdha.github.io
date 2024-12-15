@@ -2,14 +2,16 @@ title: "Dhruv Gamdha"
 description: "HPC Software Developer Specializing in GPU Acceleration and PDE Solvers"
 url: "https://DhruvGamdha.github.io" # Replace with your GitHub Pages URL
 baseurl: "" # For user.github.io repositories, leave empty
-theme: "minimal-mistakes-jekyll"
+
+# Use Minimal Mistakes as a remote theme
+remote_theme: "mmistakes/minimal-mistakes@4.33.0" # Specify the exact version
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
 
-# Minimal Mistakes specific configurations
 author:
   name: "Dhruv Gamdha"
   avatar: "/assets/images/avatar.jpg" # Ensure this image exists
@@ -38,7 +40,7 @@ navigation:
 # Enable extra features
 extras:
   - favicon
-  - apple-touch-icon
+  # - apple-touch-icon
 
 # Social links can also be defined here
 social:
