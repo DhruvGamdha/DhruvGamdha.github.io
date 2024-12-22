@@ -5,17 +5,34 @@ baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.34.0"
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      author_profile: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      author_profile: true
+# header:
+#   # overlay_image: "/assets/images/header.jpg"
+#   overlay_filter: 0.5
+#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+#   actions:
+#     - label: "Learn More"
+#       url: "/about/"
+#     - label: "Projects"
+#       url: "/projects/"
+#     - label: "Publications"
+#       url: "/publications/"
+#     - label: "Resume"
+#       url: "/resume/"
+#     - label: "Contact"
+#       url: "/contact/"
+
+
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       author_profile: true
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       author_profile: true
 
 plugins:
   - jekyll-feed
