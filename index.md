@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "HPC Software Developer"
 subtitle: "Accelerating Simulations, Scaling GPU Algorithms, and Enabling Next-Gen Computational Engineering"
 author_profile: true
