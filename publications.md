@@ -3,15 +3,7 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  # overlay_image: /assets/images/header-bg.jpg
-  actions:
-    - label: "View Projects"
-      url: "/projects/"
-    - label: "Download Resume"
-      url: "/resume/"
+navigation: true
 ---
 
 # Publications
