@@ -5,45 +5,15 @@ baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 
-main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
-    target: _blank
-
-
-# Minimal Mistakes settings
 header:
+  # overlay_image: "/assets/images/header.jpg"
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   nav:
     enable: true
-
-# header not working
-# header:
-#   # overlay_image: "/assets/images/header.jpg"
-#   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  # navigation:
-  #   - label: "About"
-  #     url: "/about/"
-  #   - label: "Projects"
-  #     url: "/projects/"
-  #   - label: "Publications"
-  #     url: "/publications/"
-  #   - label: "Resume"
-  #     url: "/resume/"
-  #   - label: "Contact"
-  #     url: "/contact/"
+  actions:
+    - label: "Learn more"
+      url: "/about/"
 
 defaults:
   - scope:
