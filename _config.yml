@@ -5,22 +5,14 @@ baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 
+# header not working
 header:
   # overlay_image: "/assets/images/header.jpg"
-  overlay_filter: 0.5
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Learn More"
+    - label: "Learn more"
       url: "/about/"
-    - label: "Projects"
-      url: "/projects/"
-    - label: "Publications"
-      url: "/publications/"
-    - label: "Resume"
-      url: "/resume/"
-    - label: "Contact"
-      url: "/contact/"
-
 
 # defaults:
 #   - scope:
