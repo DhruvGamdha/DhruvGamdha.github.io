@@ -4,18 +4,6 @@ url: "https://DhruvGamdha.github.io" # Replace with your GitHub Pages URL
 baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.34.0"
-header:
-  navigation:
-    - title: "About"
-      url: /about/
-    - title: "Projects"
-      url: /projects/
-    - title: "Publications"
-      url: /publications/
-    - title: "Resume"
-      url: /resume/
-    - title: "Contact"
-      url: /contact/
 
 defaults:
   - scope:
