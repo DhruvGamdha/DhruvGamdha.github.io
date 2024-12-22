@@ -5,21 +5,21 @@ baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 
-# header:
-#   # overlay_image: "/assets/images/header.jpg"
-#   overlay_filter: 0.5
-#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-#   actions:
-#     - label: "Learn More"
-#       url: "/about/"
-#     - label: "Projects"
-#       url: "/projects/"
-#     - label: "Publications"
-#       url: "/publications/"
-#     - label: "Resume"
-#       url: "/resume/"
-#     - label: "Contact"
-#       url: "/contact/"
+header:
+  # overlay_image: "/assets/images/header.jpg"
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "Learn More"
+      url: "/about/"
+    - label: "Projects"
+      url: "/projects/"
+    - label: "Publications"
+      url: "/publications/"
+    - label: "Resume"
+      url: "/resume/"
+    - label: "Contact"
+      url: "/contact/"
 
 
 # defaults:
