@@ -5,6 +5,11 @@ baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 
+# Minimal Mistakes settings
+header:
+  nav:
+    enable: true
+
 # header not working
 # header:
 #   # overlay_image: "/assets/images/header.jpg"
@@ -22,17 +27,11 @@ remote_theme: "mmistakes/minimal-mistakes"
   #   - label: "Contact"
   #     url: "/contact/"
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       author_profile: true
-#   - scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       author_profile: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
 
 plugins:
   - jekyll-feed
