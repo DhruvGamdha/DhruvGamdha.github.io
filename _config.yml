@@ -10,6 +10,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme  # Make sure this is included!
+  - jekyll-include-cache
 
 # Minimal Mistakes specific configurations
 author:
