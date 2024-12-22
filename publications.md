@@ -3,7 +3,7 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
-navigation: true
+nav_bar: true
 ---
 
 # Publications
