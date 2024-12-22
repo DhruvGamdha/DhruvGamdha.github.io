@@ -25,7 +25,7 @@ header:
     - label: "Download Resume"
       url: "/resume/"
 
-navbar:
+navigation:
   title: "Dhruv Gamdha"
   left_links:
     - label: "Projects"
