@@ -6,16 +6,16 @@ author_profile: true
 navigation: true
 header: true
 permalink: /
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-#   overlay_image: /assets/images/header-bg.jpg
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.3"
+# #   overlay_image: /assets/images/header-bg.jpg
 
-  actions:
-    - label: "View Projects"
-      url: "/projects/"
-    - label: "Download Resume"
-      url: "/resume/"
+#   actions:
+#     - label: "View Projects"
+#       url: "/projects/"
+#     - label: "Download Resume"
+#       url: "/resume/"
 ---
 
 Welcome! I am **Dhruv Gamdha**, a Ph.D. candidate and HPC software developer specializing in GPU acceleration, PDE solvers, and large-scale simulations. I integrate cutting-edge numerical methods with parallel computing frameworks to solve complex engineering and scientific problems efficiently.

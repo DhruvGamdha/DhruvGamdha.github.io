@@ -14,6 +14,10 @@ header:
   actions:
     - label: "Learn more"
       url: "/about/"
+    - label: "Contact"
+      url: "/contact/"
+    - label: "Projects"
+      url: "/projects/"
 
 defaults:
   - scope:
