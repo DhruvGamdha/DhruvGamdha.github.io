@@ -2,7 +2,7 @@ title: "Dhruv Gamdha"
 description: "HPC Software Developer Specializing in GPU Acceleration and PDE Solvers"
 url: "https://DhruvGamdha.github.io" # Replace with your GitHub Pages URL
 baseurl: "" # For user.github.io repositories, leave empty
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
