@@ -9,6 +9,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme  # Make sure this is included!
 
 # Minimal Mistakes specific configurations
 author:
