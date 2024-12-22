@@ -10,7 +10,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
 #   overlay_image: /assets/images/header-bg.jpg
-  nav_links:
+  navigation:
     - label: "Projects"
       url: "/projects/"
     - label: "Publications"
