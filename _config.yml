@@ -5,8 +5,17 @@ baseurl: "" # For user.github.io repositories, leave empty
 # theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.34.0"
 header:
-  nav:
-    enable: true
+  navigation:
+    - title: "About"
+      url: /about/
+    - title: "Projects"
+      url: /projects/
+    - title: "Publications"
+      url: /publications/
+    - title: "Resume"
+      url: /resume/
+    - title: "Contact"
+      url: /contact/
 
 defaults:
   - scope:
