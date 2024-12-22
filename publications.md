@@ -3,7 +3,16 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
-header: true
+header: 
+    # overlay_image: /assets/images/header-bg.jpg
+    overlay_filter: 0.5
+    caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+    actions:
+        - label: "View Projects"
+          url: "/projects/"
+        - label: "Download Resume"
+          url: "/resume/"
+        
 ---
 
 # Publications
